@@ -9,7 +9,7 @@ int main() {
     std::cout << "Введите число для вычисления факториала: ";
     std::cin >> val;
 
-    if (val > 0 && val_t > 0) {
+    if (val > 0) {
         auto start = std::chrono::steady_clock::now();
 
         unsigned long long final = 1;
